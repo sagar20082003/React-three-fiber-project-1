@@ -2,8 +2,11 @@ import { PresentationControls } from "@react-three/drei"
 import { useRef } from "react"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
-import { MacbookModel16 } from "../../Models/Macbook-16"
-import { MacbookModel14 } from "../../Models/Macbook-14"
+import { MacbookModel16 } from "../../Models/Macbook-16.jsx";
+import { MacbookModel14 } from "../../Models/Macbook-14.jsx";
+
+
+
 
 export const ModelsSwitcher = ({ scale, isMobile }) => {
   const smallMacbookRef = useRef()
